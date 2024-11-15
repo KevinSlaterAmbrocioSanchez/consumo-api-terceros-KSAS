@@ -1,0 +1,90 @@
+/* Centrado del contenedor */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .table-responsive {
+    overflow-x: auto;
+  }
+  
+  .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+    font-size: 0.9rem;
+    color: #333;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .styled-table thead {
+    background-color: #2c3e50; /* Color oscuro para el encabezado */
+    color: #ffffff;
+  }
+  
+  .styled-table thead th {
+    padding: 12px 15px;
+    text-align: center;
+    font-weight: 600;
+    border-bottom: 2px solid #34495e; /* Color más oscuro en el borde */
+  }
+  
+  .styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    transition: background-color 0.3s ease;
+  }
+  
+  .styled-table tbody tr:nth-of-type(even) {
+    background-color: #f9f9f9; /* Color claro en filas alternas */
+  }
+  
+  .styled-table tbody tr:nth-of-type(odd) {
+    background-color: #ffffff;
+  }
+  
+  .styled-table tbody tr:hover {
+    background-color: #e0f7fa; /* Color sutil al pasar el ratón */
+  }
+  
+  .styled-table tbody td {
+    padding: 12px 15px;
+    text-align: center;
+  }
+  
+  /* Estilo para el título */
+  h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px; /* Espacio entre los botones */
+    margin-top: 15px;
+    padding: 10px;
+  }
+  
+  .pagination button {
+    background-color: #007bff; /* Azul principal */
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    margin: 0 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination button.active {
+    background-color: #0056b3; /* Azul más oscuro para la página activa */
+    font-weight: bold;
+  }
+  
+  .pagination button:hover {
+    background-color: #0056b3;
+  }
