@@ -101,6 +101,10 @@ export class UserListComponent implements OnInit {
 
    Además de usuarios, se podrían integrar APIs que proporcionen información de productos, órdenes de compra, estados del clima, noticias, entre otros. Esto dependerá del propósito del proyecto y de los datos necesarios para satisfacer las necesidades de los usuarios.
 
+
+## Tabla
+![image](https://github.com/user-attachments/assets/19a679fc-e4bd-4f76-9667-889b694118c1)
+
 ------------
 
 Ambrocio Sánchez Kevin Slater
